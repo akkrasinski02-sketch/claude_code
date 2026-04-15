@@ -1,0 +1,25 @@
+{
+	"name": "remotion-video-example",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Example Remotion video project",
+	"scripts": {
+		"dev": "remotion studio",
+		"studio": "remotion studio",
+		"build": "remotion render MyComp out/video.mp4",
+		"render": "remotion render",
+		"upgrade": "remotion upgrade"
+	},
+	"dependencies": {
+		"@remotion/cli": "^4.0.200",
+		"@remotion/transitions": "^4.0.200",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"remotion": "^4.0.200"
+	},
+	"devDependencies": {
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"typescript": "^5.5.4"
+	}
+}
